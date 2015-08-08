@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C7BDFBB0-9DE5-4DAA-B94C-D1C99F2AE57D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Учет_газового_оборудования</RootNamespace>
+    <AssemblyName>Учет газового оборудования</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Security">
+      <HintPath>.\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>.\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="abonent.cs" />
+    <Compile Include="db_con.cs" />
+    <Compile Include="add_oborudovanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_oborudovanie.Designer.cs">
+      <DependentUpon>add_oborudovanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="find_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="find_form.Designer.cs">
+      <DependentUpon>find_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_abonent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_abonent.Designer.cs">
+      <DependentUpon>add_abonent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oborudovanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oborudovanie.Designer.cs">
+      <DependentUpon>oborudovanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="temp.cs" />
+    <EmbeddedResource Include="add_oborudovanie.resx">
+      <DependentUpon>add_oborudovanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="find_form.resx">
+      <DependentUpon>find_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_abonent.resx">
+      <DependentUpon>add_abonent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oborudovanie.resx">
+      <DependentUpon>oborudovanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view-refresh-4.png" />
+    <None Include="Resources\edit-find-3.png" />
+    <None Include="Resources\edit-delete-2.png" />
+    <None Include="Resources\edit-add-2.png" />
+    <None Include="Resources\edit-4.png" />
+    <None Include="Resources\document-print-4.png" />
+    <None Include="Resources\dialog-block.png" />
+    <None Include="Resources\dialog-apply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-new-81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-undo-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go-first-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go-previous-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go-next-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go-last-3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

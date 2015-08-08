@@ -1,0 +1,16 @@
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\bin\Debug\Учет газового оборудования.exe
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\bin\Debug\Учет газового оборудования.pdb
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\bin\Debug\Mono.Security.dll
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\bin\Debug\Npgsql.dll
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\bin\Debug\Npgsql.xml
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\obj\x86\Debug\Учет_газового_оборудования.Properties.Resources.resources
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\obj\x86\Debug\Учет газового оборудования.exe
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\obj\x86\Debug\Учет газового оборудования.pdb
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\obj\x86\Debug\Учет_газового_оборудования.Form1_main.resources
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\obj\x86\Debug\Учет_газового_оборудования.Form2_add_abonent.resources
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\obj\x86\Debug\Учет_газового_оборудования.Form3_add_oborudovanie.resources
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\obj\x86\Debug\Учет_газового_оборудования.find_form.resources
+D:\coding\csharp\Учет газового оборудования\Учет газового оборудования\obj\x86\Debug\Учет_газового_оборудования.oborudovanie.resources

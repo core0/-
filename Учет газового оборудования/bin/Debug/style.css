@@ -1,0 +1,17 @@
+table,tr,td{
+    border: black thin solid;
+}
+
+table{
+    width: 100%;
+}
+
+.number, .fio, .adres{
+    font-weight: bold;
+
+}
+
+.null, .eqid, .eq_name, .eq_type, .eq_date{
+    text-decoration: underline;
+    text-align: center;
+}
